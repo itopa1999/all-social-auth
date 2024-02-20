@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+{% load static %}
+{% load socialaccount %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>All Social Auth </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+
+</head>
+<body>
+    <a href="{% provider_login_url 'google' %}?next=/" ><button  ><i class="bi bi-google"></i> Sign In </button></a>  
+    <a href="#"><button  ><i class="bi bi-google"></i> Sign In </button></a>  
+    <a href="#"><button  ><i class="bi bi-google"></i> Sign In </button></a>  
+    <a href="#"><button  ><i class="bi bi-google"></i> Sign In </button></a>  
+</body>
+
